@@ -26,4 +26,25 @@ roslaunch realsense2_camera rs_camera.launch
 
 ### 使用方法
 
+1. 确保你已经存在一个工作空间并且添加环境变量：
 
+    ```commandline
+    cd ~/workspace/src
+    catkin_init_workspace
+    cd ~/workspace
+    catkin_make
+    ```
+
+2. 拷贝模板，注意模板是一个软件包，安装在src中
+
+    ```commandline
+    cd workspace_name/src
+    git clone git@github.com:Phoenizard/TemplateForImageProcess-ROS.git 
+    ```
+
+3. 自定义CMakeLists的项目名称以及程序中的变量命名后，编译：
+    
+    ```commandline
+    cd workspace_name/src
+    catkin_make
+    ```
