@@ -1,6 +1,6 @@
 #include "demo.h"
 
-cv::Mat ProcessImg(cv::Mat rawImage)
+cv::Mat SubPuber::ProcessImg(cv::Mat rawImage)
 {
     // process Image
     Mat dst = rawImage;
